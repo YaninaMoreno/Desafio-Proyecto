@@ -1,0 +1,391 @@
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif; }
+
+body {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+}
+
+.container-fluid {
+  margin: 0;
+}
+
+/* Header */
+header {
+    /* margin-top: 10px; */
+    margin-bottom: 30px;
+  }
+  .nav-item{
+    color: black;
+  }
+  #itemActivo{
+    background-color: rgb(66, 202, 134);
+  
+  }
+  
+  .nav-link{
+    color: rgb(66, 202, 134);
+  }
+  .tituloPage {
+    color: rgb(66, 202, 134);
+  }
+
+  /* Site */
+.item {
+  border: 2px solid #000;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.item-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+.item-image {
+  height: 300px;
+  width: 100%;
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px 15px;
+}
+
+.item-details .item-button{
+  background-color: rgb(66, 202, 134);
+  color: white;
+}
+
+.item-details > .item-price {
+  margin: 0;
+}
+
+
+/* ? SHOPPING CART */
+.shopping-cart-items {
+  padding: 20px 0px;
+}
+
+.shopping-cart-header {
+  border-bottom: 1px solid #ccc;
+}
+
+.shopping-cart-image {
+  max-width: 80px;
+  border-radius: 20px;
+}
+
+.shopping-cart-quantity-input {
+  max-width: 45px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #eee;
+  padding: 5px;
+}
+
+.shopping-cart-total {
+  min-height: 96px;
+}
+
+.btn-success {
+  background-color: rgb(66, 202, 134);
+}
+
+
+.btn-success:focus {
+  background-color: rgb(66, 202, 134);
+}
+
+/*Footer*/
+.footer-copyright {
+  text-decoration: none;
+  font-size: 1.2 rem;
+  color: white;
+  font-weight: 500;
+}
+
+/*PRODUCTOS*/
+.form-control {
+  width: 50%;
+  margin: auto; }
+
+.section__card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 2rem;
+  justify-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem; }
+
+.card-precio {
+  font-weight: 700; }
+
+i {
+  font-size: x-large;
+  color: rgb(66, 202, 134); }
+
+.productoCarrito {
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  align-items: baseline;
+  color: blue; }
+
+#contador-items {
+  font-size: x-large;
+  color: rgb(66, 202, 134); }
+
+.boton-eliminar {
+  border: none; }
+
+.fa-trash-alt:before {
+  color: crimson;
+  border: none; }
+
+.btn__compra {
+  background-color: lightblue;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  display: none; }
+  .btn__compra:hover {
+    border: solid 1px #112211;
+    transition: 1s ease; }
+
+    html,
+Main {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: medium;
+  text-align: center; }
+
+.logo {
+  width: 250px; }
+
+.card-body {
+  background-color:rgb(212, 222, 217);
+  border-radius: 5px; }
+
+.form-signin {
+  max-width: 330px;
+  padding: 10px; }
+
+.form-signin .form-floating:focus-within {
+  z-index: 2; }
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0; }
+
+.btn {
+  background-color: #d498fc;
+  color: white; }
+
+a {
+  color: #9e2fe9; }
+  a:hover {
+    color: #7001b9; }
+
+.img__loading {
+  width: 100px; }
+
+/*Carrito*/
+
+.card__final {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem; }
+
+.card-top {
+  padding: 0.7rem 5rem; }
+
+.tarjeta-cuerpo {
+  background-color: rgb(178, 226, 194);
+  padding: 1rem; }
+
+.row {
+  margin: 0; }
+
+div.row {
+  font-size: large;
+}
+
+.upper {
+  padding: 1rem 0;
+  justify-content: space-evenly; }
+
+form span {
+  color: #b3b3b3; }
+
+form {
+  padding: 2vh 0; }
+
+input {
+  border: 0.5px solid rgba(0, 0, 0, 0.137);
+  padding: 1vh;
+  margin-bottom: 4vh;
+  outline: none;
+  width: 100%;
+  background-color: #f7f7f7; }
+
+.header {
+  font-size: 1.5rem; }
+
+.left {
+  background-color: #ffffff;
+  padding: 2vh; }
+
+.left img {
+  width: 3rem; }
+
+.left .col-4 {
+  padding-left: 0; }
+
+.right .item {
+  padding: 0.3rem 0; }
+
+.right {
+  background-color: #ffffff;
+  padding: 2vh; }
+
+ .col-8 {
+  padding: 0 1vh; } 
+
+.lower {
+  line-height: 2; }
+
+.btn__cancelar {
+  background-color: #818381;
+  border-color: #2b2b2b;
+  color: white;
+  width: 50;
+  font-size: 0.7rem;
+  margin: 1vh 0 0.5vh 0;
+  padding: 0.75vh;
+  border-radius: 0; }
+
+.btn__final {
+  background-color: #1704bd;
+  border-color: #1704bd;
+  color: white;
+  width: 100%;
+  font-size: 0.7rem;
+  margin: 4vh 0 1.5vh 0;
+  padding: 1.5vh;
+  border-radius: 0;
+  opacity: 0.5; }
+
+.btn__final:focus {
+  box-shadow: none;
+  outline: none;
+  box-shadow: none;
+  color: white;
+  transition: none; }
+
+.btn__final:hover {
+  color: white; }
+
+a {
+  color: black; }
+
+a:hover {
+  color: black;
+  text-decoration: none; }
+
+input[type=checkbox] {
+  width: unset;
+  margin-bottom: unset; }
+
+#cvv {
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.541)), url("https://img.icons8.com/material-outlined/24/000000/help.png");
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: center; }
+
+.seleccionVencimiento {
+  opacity: 0.3;
+  width: 100%;
+  height: 50%; }
+
+.eleccion__pago {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:x-large;
+  font-weight: 500;
+  color: black; }
+
+img.img__logo {
+  padding: 1rem;
+  width: 10rem; }
+
+
+/*Medias*/
+/*medias*/
+@media screen and (max-width: 999px) {
+  .form-control {
+    width: 50%;
+    margin: 0 auto; }
+  .section__card {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    justify-items: center;
+    gap: 1rem;
+    padding: 1rem; }
+  .card-img.top {
+    padding: 0.5rem;
+    transition: 1s ease-in-out; }
+    .card-img.top:hover {
+      scale: 1rem; } }
+
+@media (max-width: 768px) {
+  .card-body {
+    padding: 0 1rem 1rem 1rem;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .card-top {
+    padding: 0.7rem 1rem; }
+  }
+
+  .card-img, .card-img-bottom, .card-img-top {
+    height: 200px;
+    width: 100%;
+}
+
+.boton-eliminar {
+  border: none; }
+
+.fa-trash-alt:before {
+  color: crimson;
+  border: none; }
+
+.btncompra {
+  background-color: lightblue;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  display: none; }
+  .btncompra:hover {
+    border: solid 1px #112211;
+    transition: 1s ease; }
